@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* -- HEADER -- */
+
+.top-bar a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.top-bar a:hover {
+    color: #fff;
+}
+
+/* -- navigation -- */
+.navbar-brand img {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    text-decoration: underline #39aa34;
+}
+
+
+/* -- main top -- */
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+
+
+.top-hero {
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+li {
+    list-style: square;
+}
+
+li::marker {
+    color: #0069b3;
+    font-size: 1.3em;
+}
+
+/* -- main -- */
+
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+    color: #878787;
+    font-weight: 400;
+
+}
+
+.main-info .card-top {
+    height: 25rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-info .card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.portal a,
+.team a {
+    text-decoration: none;
+    color: #0069b3;
+    font-weight: bold;
+}
+
+.portal a:hover,
+.team a:hover {
+    color: #0e8ee8;
+}
+
+.portal img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* -- o nas -- */
+
+.company-hero {
+    background-image: url('img/company.jpg');
+    background-position: 0 45%;
+}
+
+
+
+.team img {
+    width: auto;
+    max-height: 200px;
+}
+
+/* -- oferta -- */
+
+.offer-hero {
+    background-image: url('img/offer.jpg');
+    background-position: 0 65%;
+}
+
+.accordion-button {
+    font-size: 1.8rem;
+    color: #0069b3 !important;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+    box-shadow: none;
+}
+
+
+
+/* -- raporty -- */
+
+.reports-hero {
+    background-image: url('img/reports.jpg');
+    background-position: 0 75%;
+}
+
+
+.reports .card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px dotted #878787;
+}
+
+.reports .card-body {
+    height: 10rem;
+}
+
+.btn-card {
+    background: #00b369;
+    color: white;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.btn-card:hover {
+    color: green;
+
+}
+
+/* -- kontakt -- */
+
+.contact-hero {
+    background-image: url('img/contact.jpg');
+    background-position: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0069b3;
+}
+
+.contact a:hover {
+    color: #0e8ee8;
+}
+
+/* -- metody badań -- */
+
+span {
+    font-weight: bold;
+}
+
+/* -- footer -- */
+.footer-links {
+    min-height: 120px;
+    background-color: #454545;
+}
+
+footer p {
+    font-size: 1.4rem;
+    color: lightgray;
+}
+
+.footer-nav-left a,
+.footer-nav-right a {
+    text-decoration: none;
+    color: lightgrey;
+
+}
+
+.footer-nav-left a:hover,
+.footer-nav-right a:hover {
+    color: #fff;
+}
+
+.footer-nav-left li,
+.footer-nav-right li {
+    list-style: none;
+
+}
+
+.footer-links a {
+    text-transform: uppercase;
+    border-bottom: lightgrey;
+}
