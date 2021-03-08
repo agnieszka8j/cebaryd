@@ -13,7 +13,7 @@ body {
     font-size: 1.6rem;
 }
 
-/* -- HEADER -- */
+/* -- header -- */
 
 .top-bar a {
     color: lightgrey;
@@ -105,15 +105,13 @@ li::marker {
 
 
 
-.portal a,
-.team a {
+.portal a {
     text-decoration: none;
     color: #0069b3;
     font-weight: bold;
 }
 
-.portal a:hover,
-.team a:hover {
+.portal a:hover {
     color: #0e8ee8;
 }
 
@@ -132,11 +130,6 @@ li::marker {
 }
 
 
-
-.team img {
-    width: auto;
-    max-height: 200px;
-}
 
 /* -- oferta -- */
 
@@ -177,33 +170,70 @@ li::marker {
     height: 10rem;
 }
 
-.btn-card {
+.btn {
     background: #00b369;
     color: white;
     font-size: 1.5rem;
-    width: 60%;
     text-align: left;
-    padding-left: 1.5rem;
+    padding: 0.8rem 1.5rem;
 }
 
-.btn-card:hover {
+.btn-card {
+    width: 60%;
+    max-width: 180px;
+}
+
+
+.btn:hover {
     color: green;
+}
+
+
+/* -- raporty - opis -- */
+
+.report-description span {
+    color: #0069b3;
+    text-transform: uppercase;
+}
+
+
+.report-description .display-5 {
+    color: #39aa34;
+    text-align: center;
 
 }
+
+.link a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #878787;
+}
+
+/* .img-description {
+    display: block;
+    margin: auto;
+    max-width: 180px; 
+    border: 1px dotted #878787;
+} */
+.img-border {
+    border: 1px dotted #878787;
+}
+
 
 /* -- kontakt -- */
+
 
 .contact-hero {
     background-image: url('img/contact.jpg');
     background-position: center;
 }
 
-.contact a {
+.contact a, .order a {
     text-decoration: none;
     color: #0069b3;
 }
 
-.contact a:hover {
+.contact a:hover, .order a:hover {
     color: #0e8ee8;
 }
 
