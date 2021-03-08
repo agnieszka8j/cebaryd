@@ -13,6 +13,7 @@ body {
     font-size: 1.6rem;
 }
 
+
 /* -- header -- */
 
 .top-bar a {
@@ -26,12 +27,13 @@ body {
     color: #fff;
 }
 
+
 /* -- navigation -- */
+
 .navbar-brand img {
     width: 280px;
     max-width: 100%;
     height: auto;
-
 }
 
 .navbar-nav a {
@@ -53,7 +55,6 @@ body {
     background-color: rgba(0, 0, 0, .6);
     z-index: -1;
 }
-
 
 .top-hero {
     position: relative;
@@ -81,6 +82,7 @@ li::marker {
     font-size: 1.3em;
 }
 
+
 /* -- main -- */
 
 .display-2,
@@ -89,7 +91,6 @@ li::marker {
 .display-5 {
     color: #878787;
     font-weight: 400;
-
 }
 
 .main-info .card-top {
@@ -102,8 +103,6 @@ li::marker {
     max-width: 100%;
     height: auto;
 }
-
-
 
 .portal a {
     text-decoration: none;
@@ -130,7 +129,6 @@ li::marker {
 }
 
 
-
 /* -- oferta -- */
 
 .offer-hero {
@@ -149,7 +147,6 @@ li::marker {
 .accordion-button:active {
     box-shadow: none;
 }
-
 
 
 /* -- raporty -- */
@@ -183,7 +180,6 @@ li::marker {
     max-width: 180px;
 }
 
-
 .btn:hover {
     color: green;
 }
@@ -209,19 +205,12 @@ li::marker {
     color: #878787;
 }
 
-/* .img-description {
-    display: block;
-    margin: auto;
-    max-width: 180px; 
-    border: 1px dotted #878787;
-} */
 .img-border {
     border: 1px dotted #878787;
 }
 
 
 /* -- kontakt -- */
-
 
 .contact-hero {
     background-image: url('img/contact.jpg');
@@ -237,13 +226,16 @@ li::marker {
     color: #0e8ee8;
 }
 
+
 /* -- metody badań -- */
 
 span {
     font-weight: bold;
 }
 
+
 /* -- footer -- */
+
 .footer-links {
     min-height: 120px;
     background-color: #454545;
@@ -258,7 +250,6 @@ footer p {
 .footer-nav-right a {
     text-decoration: none;
     color: lightgrey;
-
 }
 
 .footer-nav-left a:hover,
@@ -269,7 +260,6 @@ footer p {
 .footer-nav-left li,
 .footer-nav-right li {
     list-style: none;
-
 }
 
 .footer-links a {
